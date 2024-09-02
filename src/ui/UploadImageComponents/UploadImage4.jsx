@@ -1,7 +1,5 @@
-
-
 /* eslint-disable react/prop-types */
- 
+/* eslint-disable no-unused-vars */
 
 import { useState, useRef, useEffect } from "react";
 import { IoCameraOutline, IoChevronBack } from "react-icons/io5";

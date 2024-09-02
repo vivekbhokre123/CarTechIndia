@@ -3,7 +3,7 @@
 import { useCarCountByStatusQuery, useDealerIdByCarQuery } from "../../services/carAPI";
 import { Tooltip } from "@material-tailwind/react";
 import { useEffect, useState } from "react";
- 
+// eslint-disable-next-line no-unused-vars
 import ApexCharts from "react-apexcharts";
 import TableComponent from "../../components/table/TableComponent";
 import {
@@ -237,7 +237,7 @@ const SellForCar = () => {
     });
   };
 
-   
+  // eslint-disable-next-line no-unused-vars
   const columns = [
     {
       Header: "Sr. No",

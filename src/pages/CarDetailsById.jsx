@@ -19,7 +19,7 @@ const CarDetailsById = () => {
   const { carId } = useParams();
   const [urlState, setUrlState] = useState();
   // console.log(urlState)
-    
+   // eslint-disable-next-line no-unused-vars
    const { data:data1, error1 } = useFilterCarQuery();
   //  console.log(data1)
   const { data, isLoading, error } = useGetCarByIdQuery(carId);

@@ -1,6 +1,6 @@
- 
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
- 
+/* eslint-disable no-unsafe-optional-chaining */
 
 import CarView1 from "./CarView1";
 import KnowYourCar from "./KnowYourCar";

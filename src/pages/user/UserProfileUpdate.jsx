@@ -1,4 +1,4 @@
- 
+/* eslint-disable no-unused-vars */
 
 import { useParams } from "react-router-dom";
 import { useUserupdateMutation, useGetUserByIdQuery } from "../../services/userAPI";

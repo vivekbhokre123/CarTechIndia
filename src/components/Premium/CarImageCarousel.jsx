@@ -1,15 +1,15 @@
 import React from "react";
 import CarSummary from "./CarSummary";
 import Accordions from "./Accordions";
-import img1 from "/CarsImages/1.jpeg";
-import img2 from "/CarsImages/2.jpeg";
-import img3 from "/CarsImages/3.jpeg";
-import img4 from "/CarsImages/4.jpeg";
-import img5 from "/CarsImages/5.jpeg";
-import img6 from "/CarsImages/6.jpeg";
-import img7 from "/CarsImages/7.jpeg";
-import img8 from "/CarsImages/8.jpeg";
-import img9 from "/CarsImages/9.jpeg";
+import img1 from "../../../public/CarsImages/1.jpeg";
+import img2 from "../../../public/CarsImages/2.jpeg";
+import img3 from "../../../public/CarsImages/3.jpeg";
+import img4 from "../../../public/CarsImages/4.jpeg";
+import img5 from "../../../public/CarsImages/5.jpeg";
+import img6 from "../../../public/CarsImages/6.jpeg";
+import img7 from "../../../public/CarsImages/7.jpeg";
+import img8 from "../../../public/CarsImages/8.jpeg";
+import img9 from "../../../public/CarsImages/9.jpeg";
 
 
 export function FeaturedImageGallery() {

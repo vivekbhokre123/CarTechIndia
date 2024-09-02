@@ -23,7 +23,7 @@ dayjs.extend(utc);
 dayjs.extend(timezone);
 const TIME_ZONE = "Asia/Kolkata";
 
-// eslint-disable-next-line react/prop-types
+// eslint-disable-next-line react/prop-types, no-unused-vars
 export default function BiddingSetTime({ userid, biddingcarid }) {
   const token = Cookies.get("token");
   let jwtDecodes;

@@ -1,4 +1,4 @@
- 
+/* eslint-disable no-unused-vars */
 import { useState, useEffect } from "react";
 import Inputs from "../../forms/Inputs";
 import { Textarea, Input } from "@material-tailwind/react";

@@ -1,4 +1,4 @@
- 
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import CardUi from "../../ui/CardUi";
 import { FaBluetooth } from "react-icons/fa6";

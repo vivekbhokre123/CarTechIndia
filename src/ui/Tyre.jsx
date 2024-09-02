@@ -13,7 +13,7 @@ export default function Tyre() {
   const [openDialog, setOpenDialog] = useState(false); // State to control the dialog display
   const [images, setImages] = useState([]);
   const [document, setDocument] = useState('Tyer');
-   
+  // eslint-disable-next-line no-unused-vars
   // const navigate = useNavigate();
   const { id } = useParams();
   const token = Cookies.get('token');

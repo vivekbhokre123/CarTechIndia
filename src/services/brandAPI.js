@@ -1,4 +1,4 @@
- 
+/* eslint-disable no-unused-vars */
 import { apiSlice } from "./apiSlice";
 
 export const brandAPI = apiSlice.injectEndpoints({

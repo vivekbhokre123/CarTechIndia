@@ -139,7 +139,7 @@ import {
       {
         Header: "Edit",
         accessor: "Edit",
-         
+        // eslint-disable-next-line no-unused-vars
         Cell: (cell) => {
           
           return (

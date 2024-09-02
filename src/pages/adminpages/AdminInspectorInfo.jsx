@@ -1,4 +1,4 @@
- 
+/* eslint-disable react/prop-types */
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { useInspectorByIdQuery } from "../../services/inspectorapi";
 import { IoChevronBack } from "react-icons/io5";
@@ -31,7 +31,7 @@ const AdminInspectorInfo = () => {
   
   const InspectorProfileId = token ? jwtDecodes?.inspectorProfileId : null;
   const userRole = token ? jwtDecodes?.authorities[0] : null;
-   
+  // eslint-disable-next-line no-unused-vars
   const DealerId = token ? jwtDecodes?.dealerId : null;
   DealerId;
 // console.log(DealerId)

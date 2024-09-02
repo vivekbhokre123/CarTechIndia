@@ -1,4 +1,4 @@
- 
+/* eslint-disable no-unused-vars */
 import { useGetAllDealerPendingBookingQuery } from "../../services/dealerAPI";
 import { useParams } from "react-router-dom";
 import DealerCarPendingRequest from "../../components/carDetails/DealerCarPendingRequest";

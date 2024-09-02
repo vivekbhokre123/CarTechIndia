@@ -15,7 +15,7 @@ const Card = ({ cardData }) => {
     const closeTime = cardData?.closingTime;
     const { data , refetch} = useBiddingCarByIdQuery(cardData?.beadingCarId);
     const { data: imageData } = useGetCarIdTypeQuery(cardData?.beadingCarId);
-     
+    // eslint-disable-next-line no-unused-vars
     const [timeLeft, setTimeLeft] = useState('');
     const bidCarId = cardData?.bidCarId;
     const [highestBid , setHighestBid] = useState(cardData?.basePrice);

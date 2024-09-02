@@ -44,7 +44,7 @@ export function StickyNavbar() {
 
 
 
-   
+  // eslint-disable-next-line no-unused-vars
 
   const DealerId = token ? jwtDecodes?.dealerId : null;
   // const userid = token ? jwtDecodes?.userId : null;

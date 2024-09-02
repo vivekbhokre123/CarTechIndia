@@ -1,4 +1,4 @@
- 
+/* eslint-disable no-unused-vars */
 import { useState } from "react";
 import UserCardPendingRequest from "../components/userRequest/UserCardPendingRequest";
 import { useUserAllCarRequestQuery } from "../services/carAPI";
